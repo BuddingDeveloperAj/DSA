@@ -2,8 +2,8 @@ package com.ajay;
 
 public class Binarysearach {
     public static void main(String[] args) {
-        int[] arr = {2,3,4,5,6,7,9,12,14,18,19,21,25,26,36,38,41,46,48,52,58,67};
-        int target = 16;
+        int[] arr = {2,3,4,5,6,7,9,12,14};
+        int target =14;
         int res = BinarySearch(arr, target);
         System.out.println(res + " " + arr[res]);
     }

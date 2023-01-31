@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="binary search">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="binary search code complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ajay/Binarysearach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ajay/Binarysearach.java" afterDir="false" />
     </list>
@@ -68,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674969999281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="binary search code complete">
+      <created>1675012828805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675012828805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,7 +92,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="binary search" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search" />
+    <MESSAGE value="binary search code complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search code complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -109,6 +117,11 @@
           <url>file://$PROJECT_DIR$/src/com/ajay/Binarysearach.java</url>
           <line>21</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/Orderagnostic_BS.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
