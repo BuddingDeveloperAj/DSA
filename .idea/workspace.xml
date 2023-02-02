@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="agnostic bs">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="binary search sum 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675130434122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="binary search sum 1">
+      <created>1675349367568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675349367568</updated>
+    </task>
+    <task id="LOCAL-00007" summary="binary search sum 1">
+      <created>1675349379897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675349379897</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,7 +114,8 @@
     <MESSAGE value="binary search" />
     <MESSAGE value="binary search code complete" />
     <MESSAGE value="agnostic bs" />
-    <option name="LAST_COMMIT_MESSAGE" value="agnostic bs" />
+    <MESSAGE value="binary search sum 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search sum 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -127,5 +142,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DSA_Kunal$BS_question_1.ic" NAME="BS_question_1 Coverage Results" MODIFIED="1675350431010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ajay.*</FILTER>
+    </SUITE>
   </component>
 </project>
