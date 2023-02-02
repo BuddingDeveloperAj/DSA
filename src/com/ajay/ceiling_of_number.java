@@ -1,6 +1,6 @@
 package com.ajay;
 
-public class BS_question_1 {
+public class ceiling_of_number {
      //find target number or smallest greater number
      public static void main(String[] args) {
          int[] arr = {2,6,8,9,10,12,14,16,17,19};
