@@ -11,9 +11,9 @@ public class Floor_of_number {
     static int BS(int[] arr, int target){
         int start = 0;
         int end = arr.length - 1;
-        if (target < arr[0]){
-            return -1;
-        }
+//        if (target < arr[0]){
+//            return -1;
+//        }
         while (start <= end){
             int mid = start + (end - start)/2;
             int mid_ele = arr[mid];
