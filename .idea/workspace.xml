@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="Find in mountain array">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="rotated sorted array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SerachInRotatedArray">
+  <component name="RunManager" selected="Application.TofindPivotinDuplicateArr">
     <configuration name="FindinMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindinMountainArray" />
       <module name="DSA Kunal" />
@@ -80,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode34sol2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.leetcode34sol2" />
+    <configuration name="TofindPivotinDuplicateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.TofindPivotinDuplicateArr" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TofindPivotinDuplicateArr" />
         <item itemvalue="Application.SerachInRotatedArray" />
         <item itemvalue="Application.FindinMountainArray" />
         <item itemvalue="Application.peakIndex" />
         <item itemvalue="Application.InfiniteArray" />
-        <item itemvalue="Application.leetcode34sol2" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676136781366</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="rotated sorted array">
+      <created>1676218895122</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676218895122</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +335,8 @@
     <MESSAGE value="leetcode 34 sol 2" />
     <MESSAGE value="infinite array" />
     <MESSAGE value="Find in mountain array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find in mountain array" />
+    <MESSAGE value="rotated sorted array" />
+    <option name="LAST_COMMIT_MESSAGE" value="rotated sorted array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,6 +411,26 @@
           <line>17</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/FindinMountainArray.java</url>
           <line>16</line>
@@ -438,6 +466,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>8</line>
+          <properties class="com.bs_sums.TofindPivotinDuplicateArr" method="FindPivotwithDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
