@@ -2,11 +2,11 @@ package com.bs_sums;
 
 public class FindNoOfRotations {
     public static void main(String[] args) {
-        int[] arr = {8,9,11,12,16,1,2,3,5,6};
+        int[] arr = {1,2,3,4,5,6,7};
         System.out.println(PeakIndex(arr) + 1);
     }
 
-    private static int PeakIndex(int[] arr) {
+    public static int PeakIndex(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
 
@@ -22,7 +22,7 @@ public class FindNoOfRotations {
             if (arr[start] > arr[mid]){
                 end = mid - 1;
             }else{
-                start = start + 1;
+                start = mid + 1;
             }
         }
         return -1;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="pivot in duplicate array" />
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="number of rotations">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindNoOfRotations">
+  <component name="RunManager" selected="Application.splitArray_leetcode">
     <configuration name="FindNoOfRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindNoOfRotations" />
       <module name="DSA Kunal" />
@@ -91,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="peakIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.peakIndex" />
+    <configuration name="splitArray_leetcode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.splitArray_leetcode" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.splitArray_leetcode" />
         <item itemvalue="Application.FindNoOfRotations" />
         <item itemvalue="Application.TofindPivotinDuplicateArr" />
         <item itemvalue="Application.SerachInRotatedArray" />
         <item itemvalue="Application.FindinMountainArray" />
-        <item itemvalue="Application.peakIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676567425140</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="number of rotations">
+      <created>1676568302388</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676568302388</updated>
+    </task>
+    <task id="LOCAL-00030" summary="number of rotations">
+      <created>1676568310500</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676568310500</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +366,8 @@
     <MESSAGE value="Find in mountain array" />
     <MESSAGE value="rotated sorted array" />
     <MESSAGE value="pivot in duplicate array" />
-    <option name="LAST_COMMIT_MESSAGE" value="pivot in duplicate array" />
+    <MESSAGE value="number of rotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of rotations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,32 +462,25 @@
           <line>23</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindinMountainArray.java</url>
-          <line>16</line>
-          <properties class="com.bs_sums.FindinMountainArray" method="PeakInMountain">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="25" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindinMountainArray.java</url>
-          <line>30</line>
-          <properties class="com.bs_sums.FindinMountainArray" method="AgnosticSearch">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="26" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
-          <line>25</line>
-          <properties class="com.bs_sums.SerachInRotatedArray" method="PeakSearch">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="31" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
@@ -481,13 +492,13 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java</url>
           <line>8</line>
-          <properties class="com.bs_sums.TofindPivotinDuplicateArr" method="FindPivotwithDuplicates">
+          <properties class="com.bs_sums.FindNoOfRotations" method="PeakIndex">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
