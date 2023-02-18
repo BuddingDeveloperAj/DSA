@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="number of rotations">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="split array leet 410">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/FindNoOfRotations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +40,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.splitArray_leetcode">
+  <component name="RunManager" selected="Application.sqrt_x_leet">
     <configuration name="FindNoOfRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindNoOfRotations" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindinMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindinMountainArray" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sqrt_x_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.sqrt_x_leet" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sqrt_x_leet" />
         <item itemvalue="Application.splitArray_leetcode" />
         <item itemvalue="Application.FindNoOfRotations" />
         <item itemvalue="Application.TofindPivotinDuplicateArr" />
         <item itemvalue="Application.SerachInRotatedArray" />
-        <item itemvalue="Application.FindinMountainArray" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676568310500</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="split array leet 410">
+      <created>1676704876224</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676704876224</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,7 +373,8 @@
     <MESSAGE value="rotated sorted array" />
     <MESSAGE value="pivot in duplicate array" />
     <MESSAGE value="number of rotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="number of rotations" />
+    <MESSAGE value="split array leet 410" />
+    <option name="LAST_COMMIT_MESSAGE" value="split array leet 410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
