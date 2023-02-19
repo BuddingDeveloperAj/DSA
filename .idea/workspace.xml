@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="higher or lower 374 leet">
-      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/Guessthenumber_leet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/Guessthenumber_leet.java" afterDir="false" />
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="find bad version leet 278 easy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.sqrt_x_leet">
+  <component name="RunManager" selected="Application.Perfect_sq_leet">
     <configuration name="FindNoOfRotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindNoOfRotations" />
       <module name="DSA Kunal" />
@@ -54,21 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerachInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.SerachInRotatedArray" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TofindPivotinDuplicateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.TofindPivotinDuplicateArr" />
+    <configuration name="Perfect_sq_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Perfect_sq_leet" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twosum_leet_167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.twosum_leet_167" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Perfect_sq_leet" />
+        <item itemvalue="Application.twosum_leet_167" />
         <item itemvalue="Application.sqrt_x_leet" />
         <item itemvalue="Application.splitArray_leetcode" />
         <item itemvalue="Application.FindNoOfRotations" />
-        <item itemvalue="Application.TofindPivotinDuplicateArr" />
-        <item itemvalue="Application.SerachInRotatedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676716308125</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="find bad version leet 278 easy">
+      <created>1676718931610</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676718931610</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +404,8 @@
     <MESSAGE value="split array leet 410" />
     <MESSAGE value="sqrt x leet 69" />
     <MESSAGE value="higher or lower 374 leet" />
-    <option name="LAST_COMMIT_MESSAGE" value="higher or lower 374 leet" />
+    <MESSAGE value="find bad version leet 278 easy" />
+    <option name="LAST_COMMIT_MESSAGE" value="find bad version leet 278 easy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,6 +520,11 @@
           <line>23</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/Perfect_sq_leet.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
           <line>44</line>
@@ -529,6 +542,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/twosum_leet_167.java</url>
+          <line>24</line>
+          <properties class="com.bs_sums.twosum_leet_167" method="FindTarget">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
