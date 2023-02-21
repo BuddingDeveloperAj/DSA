@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="insert nums leet 35">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="count negative nos. in sorted matrix leet  1352">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +40,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.countNegativeInsortedMatrix_leet">
+  <component name="RunManager" selected="Application.FairCandy_leet">
     <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.ArrangingCoins" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FairCandy_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FairCandy_leet" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -93,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twosum_leet_167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.twosum_leet_167" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FairCandy_leet" />
         <item itemvalue="Application.countNegativeInsortedMatrix_leet" />
         <item itemvalue="Application.FindKthP_integer_leet" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.Perfect_sq_leet" />
-        <item itemvalue="Application.twosum_leet_167" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676820947828</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="count negative nos. in sorted matrix leet  1352">
+      <created>1676828805380</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828805380</updated>
+    </task>
+    <task id="LOCAL-00040" summary="count negative nos. in sorted matrix leet  1352">
+      <created>1676828817036</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1676828817036</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +443,8 @@
     <MESSAGE value="perfect sq leet 367" />
     <MESSAGE value="araanging coins leet" />
     <MESSAGE value="insert nums leet 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert nums leet 35" />
+    <MESSAGE value="count negative nos. in sorted matrix leet  1352" />
+    <option name="LAST_COMMIT_MESSAGE" value="count negative nos. in sorted matrix leet  1352" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
