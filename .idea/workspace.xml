@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="fair candy leet 888">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="double of number in array">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.doubleofNexistinarr">
-    <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.ArrangingCoins" />
+  <component name="RunManager" selected="Application.leetcode1802">
+    <configuration name="ReachANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.ReachANumber" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FairCandy_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FairCandy_leet" />
+    <configuration name="SingleNoDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.SingleNoDuplicate" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKthP_integer_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindKthP_integer_leet" />
+    <configuration name="TofindPivotinDuplicateArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.TofindPivotinDuplicateArr" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countNegativeInsortedMatrix_leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.countNegativeInsortedMatrix_leet" />
+    <configuration name="leetcode1802" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.leetcode1802" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="doubleofNexistinarr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.doubleofNexistinarr" />
+    <configuration name="searchInRotatedSortedwithDuplicated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.searchInRotatedSortedwithDuplicated" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.doubleofNexistinarr" />
-        <item itemvalue="Application.FairCandy_leet" />
-        <item itemvalue="Application.countNegativeInsortedMatrix_leet" />
-        <item itemvalue="Application.FindKthP_integer_leet" />
-        <item itemvalue="Application.ArrangingCoins" />
+        <item itemvalue="Application.leetcode1802" />
+        <item itemvalue="Application.ReachANumber" />
+        <item itemvalue="Application.searchInRotatedSortedwithDuplicated" />
+        <item itemvalue="Application.TofindPivotinDuplicateArr" />
+        <item itemvalue="Application.SingleNoDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677004291750</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="double of number in array">
+      <created>1677087929120</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677087929120</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="binary search" />
     <MESSAGE value="binary search code complete" />
     <MESSAGE value="agnostic bs" />
@@ -452,7 +459,8 @@
     <MESSAGE value="insert nums leet 35" />
     <MESSAGE value="count negative nos. in sorted matrix leet  1352" />
     <MESSAGE value="fair candy leet 888" />
-    <option name="LAST_COMMIT_MESSAGE" value="fair candy leet 888" />
+    <MESSAGE value="double of number in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="double of number in array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -652,6 +660,41 @@
           <line>12</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/searchInRotatedSortedwithDuplicated.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/searchInRotatedSortedwithDuplicated.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/searchInRotatedSortedwithDuplicated.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/ReachANumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/ReachANumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/leetcode1802.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
           <line>44</line>
@@ -678,6 +721,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/SingleNoDuplicate.java</url>
+          <line>9</line>
+          <properties class="com.bs_sums.SingleNoDuplicate" method="findindex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/TofindPivotinDuplicateArr.java</url>
+          <line>8</line>
+          <properties class="com.bs_sums.TofindPivotinDuplicateArr" method="FindPivotwithDuplicates">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

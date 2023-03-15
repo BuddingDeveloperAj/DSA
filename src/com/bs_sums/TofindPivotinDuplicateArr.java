@@ -2,7 +2,7 @@ package com.bs_sums;
 
 public class TofindPivotinDuplicateArr {
     public static void main(String[] args) {
-        int[] arr = {3,3,4,5,7,7,8,9,1,2,2,3,3};
+        int[] arr = {1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1};
         System.out.println(FindPivotwithDuplicates(arr, 0, arr.length - 1));
     }
 
@@ -18,7 +18,7 @@ public class TofindPivotinDuplicateArr {
             }
 
             //if elements at mid, start and end are equal then skip the duplicates
-            if (arr[mid] == arr[start] && arr[mid] == arr[end]){
+            if (arr[mid] == arr[start] || arr[mid] == arr[end]){
                 //what if these start and end elements were pivots
                 //check if start is pivot
                 if (arr[start] > arr[start + 1]){
