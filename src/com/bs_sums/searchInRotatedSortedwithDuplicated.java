@@ -3,7 +3,7 @@ package com.bs_sums;
 public class searchInRotatedSortedwithDuplicated {
     public static void main(String[] args) {
         int target = 1;
-        int[] nums = {3,5,1};
+        int[] nums = {5,5,5,1,1,1,2,2,3,4,5,5,5};
         int n = nums.length;
         int left = 0, right = n - 1;
 
@@ -22,7 +22,7 @@ public class searchInRotatedSortedwithDuplicated {
                 else right = right - 1;
             }
 
-            if (nums[0] <= nums[mid] && target < nums[mid]){
+            if (nums[0] <= nums[mid]){
                 if (nums[mid] < target) left = mid + 1;
                 else right = mid - 1;
             }
