@@ -2,8 +2,8 @@ package com.bs_sums;
 
 public class kekoEatingbanana {
     public static void main(String[] args) {
-        int[] piles = {3,6,7,11};
-        int h = 8;
+        int[] piles = {30,11,23,4,20};
+        int h = 5;
         int start = 1;
         int end = 0;
 
@@ -14,25 +14,24 @@ public class kekoEatingbanana {
 
         while (start < end){
             int mid = start + (end - start)/2;
-            int sum = 0;
+            float sum = 0;
 
             for (int n:piles){
-                sum += (float)n/mid+1;
-                System.out.println(sum);
-            }
-            System.out.println("over");
-
-            if (sum == h){
-                System.out.println(mid + "mid");
+                sum += (float)n/(float)mid;
+                //System.out.println(sum);
             }
 
-            if (sum < h){
-                start = mid + 1;
+//            if (sum == h){
+//                System.out.println(mid + "mid");
+//            }
+
+            if (sum > h){
+                start = mid+1;
             }
             else{
-                end = mid - 1;
+                end = mid;
             }
         }
-        System.out.println(start);
+        System.out.println(start + " ans");
     }
 }

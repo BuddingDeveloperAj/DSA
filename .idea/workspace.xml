@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="leetcodes">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="keko">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/FindminInRotated154.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/FindminInRotated154.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/kekoEatingbanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/kekoEatingbanana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +42,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.searchInRotatedSortedwithDuplicated">
-    <configuration name="ReachANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.ReachANumber" />
+  <component name="RunManager" selected="Application.bubble_srot">
+    <configuration name="FindminInRotated154" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindminInRotated154" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bubble_srot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bubble_sort.bubble_srot" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bubble_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,21 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode1802" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.leetcode1802" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="search2Darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.search2Darray" />
+    <configuration name="searchIN2dMATRIX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.searchIN2dMATRIX" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.searchInRotatedSortedwithDuplicated" />
-        <item itemvalue="Application.search2Darray" />
+        <item itemvalue="Application.bubble_srot" />
+        <item itemvalue="Application.searchIN2dMATRIX" />
         <item itemvalue="Application.kekoEatingbanana" />
-        <item itemvalue="Application.leetcode1802" />
-        <item itemvalue="Application.ReachANumber" />
+        <item itemvalue="Application.FindminInRotated154" />
+        <item itemvalue="Application.searchInRotatedSortedwithDuplicated" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678903010872</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="keko">
+      <created>1679209771971</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1679209771971</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary search code complete" />
     <MESSAGE value="agnostic bs" />
     <MESSAGE value="binary search sum 1" />
     <MESSAGE value="floor of number in array" />
@@ -466,7 +474,8 @@
     <MESSAGE value="fair candy leet 888" />
     <MESSAGE value="double of number in array" />
     <MESSAGE value="leetcodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcodes" />
+    <MESSAGE value="keko" />
+    <option name="LAST_COMMIT_MESSAGE" value="keko" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,6 +724,21 @@
           <url>file://$PROJECT_DIR$/src/com/bs_sums/search2Darray.java</url>
           <line>13</line>
           <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindminInRotated154.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/searchIN2dMATRIX.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bubble_sort/bubble_srot.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
