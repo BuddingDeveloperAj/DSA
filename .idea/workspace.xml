@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="bubble sort">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="duplicate num">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bubble_sort/bubble_srot.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindDuplicateInt">
+  <component name="RunManager" selected="Application.selection_sort">
     <configuration name="FindDuplicateInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindDuplicateInt" />
       <module name="DSA Kunal" />
@@ -80,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kekoEatingbanana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.kekoEatingbanana" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="searchIN2dMATRIX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.searchIN2dMATRIX" />
       <module name="DSA Kunal" />
@@ -106,13 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="selection_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.selection_sort" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.selection_sort" />
         <item itemvalue="Application.FindDuplicateInt" />
         <item itemvalue="Application.Freq_of_Most_Freq_element" />
         <item itemvalue="Application.bubble_srot" />
         <item itemvalue="Application.searchIN2dMATRIX" />
-        <item itemvalue="Application.kekoEatingbanana" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679743322342</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="duplicate num">
+      <created>1679939059865</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939059865</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -455,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="binary search sum 1" />
     <MESSAGE value="floor of number in array" />
     <MESSAGE value="leetcode 744 java" />
     <MESSAGE value="leetcode 744 python" />
@@ -480,7 +487,8 @@
     <MESSAGE value="leetcodes" />
     <MESSAGE value="keko" />
     <MESSAGE value="bubble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
+    <MESSAGE value="duplicate num" />
+    <option name="LAST_COMMIT_MESSAGE" value="duplicate num" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -754,6 +762,16 @@
           <url>file://$PROJECT_DIR$/src/com/bs_sums/Freq_of_Most_Freq_element.java</url>
           <line>10</line>
           <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/FindDuplicateInt.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/selection_sort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
