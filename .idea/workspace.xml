@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="duplicate num">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="selection sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bubble_sort/bubble_srot.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.selection_sort">
+  <component name="RunManager" selected="Application.Min_size_subarray_sum">
     <configuration name="FindDuplicateInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindDuplicateInt" />
       <module name="DSA Kunal" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bubble_srot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bubble_sort.bubble_srot" />
+    <configuration name="Min_size_subarray_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Min_size_subarray_sum" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bubble_sort.*" />
+          <option name="PATTERN" value="com.bs_sums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="searchIN2dMATRIX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.searchIN2dMATRIX" />
+    <configuration name="bubble_srot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bubble_sort.bubble_srot" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="PATTERN" value="com.bubble_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Min_size_subarray_sum" />
         <item itemvalue="Application.selection_sort" />
         <item itemvalue="Application.FindDuplicateInt" />
         <item itemvalue="Application.Freq_of_Most_Freq_element" />
         <item itemvalue="Application.bubble_srot" />
-        <item itemvalue="Application.searchIN2dMATRIX" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679939059865</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="selection sort">
+      <created>1680022836311</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1680022836311</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,7 +469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="floor of number in array" />
     <MESSAGE value="leetcode 744 java" />
     <MESSAGE value="leetcode 744 python" />
     <MESSAGE value="leetcode 744 python and js" />
@@ -488,7 +493,8 @@
     <MESSAGE value="keko" />
     <MESSAGE value="bubble sort" />
     <MESSAGE value="duplicate num" />
-    <option name="LAST_COMMIT_MESSAGE" value="duplicate num" />
+    <MESSAGE value="selection sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="selection sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,6 +779,11 @@
           <line>8</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/Min_size_subarray_sum.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
           <line>44</line>
@@ -824,6 +835,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Kunal$BS_question_1.ic" NAME="BS_question_1 Coverage Results" MODIFIED="1675350431010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ajay.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DSA_Kunal$selection_sort.ic" NAME="selection_sort Coverage Results" MODIFIED="1680022477140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.sorting.*</FILTER>
     </SUITE>
   </component>
 </project>
