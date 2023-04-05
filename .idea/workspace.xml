@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="leet code min size sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bs_sums/Min_size_subarray_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bs_sums/Min_size_subarray_sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +40,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.findFirst_Last">
-    <configuration name="FindDuplicateInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.FindDuplicateInt" />
+  <component name="RunManager" selected="Application.Find_duplicate_number">
+    <configuration name="Find_duplicate_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.Find_duplicate_number" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Freq_of_Most_Freq_element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Freq_of_Most_Freq_element" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cyclic_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.cyclic_sort" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="findFirst_Last" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bs_sums.findFirst_Last" />
       <module name="DSA Kunal" />
@@ -94,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="selection_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.selection_sort" />
+    <configuration name="insertion_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.insertion_sort" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_duplicate_number" />
+        <item itemvalue="Application.insertion_sort" />
+        <item itemvalue="Application.cyclic_sort" />
         <item itemvalue="Application.findFirst_Last" />
         <item itemvalue="Application.Min_size_subarray_sum" />
-        <item itemvalue="Application.selection_sort" />
-        <item itemvalue="Application.FindDuplicateInt" />
-        <item itemvalue="Application.Freq_of_Most_Freq_element" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680108153613</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="leet code min size sum">
+      <created>1680455485147</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680455485147</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -811,6 +817,16 @@
           <url>file://$PROJECT_DIR$/src/com/bs_sums/findFirst_Last.java</url>
           <line>17</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/cyclic_sort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/insertion_sort.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
