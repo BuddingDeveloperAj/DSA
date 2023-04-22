@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="leet code min size sum">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="cycle sort/insertion sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sorting/Find_duplicate_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/Find_duplicate_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sorting/cyclic_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/cyclic_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sorting/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/insertion_sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +43,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Find_duplicate_number">
-    <configuration name="Find_duplicate_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.Find_duplicate_number" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Min_size_subarray_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Min_size_subarray_sum" />
+  <component name="RunManager" selected="Application.patterns">
+    <configuration name="Kth_smallest_in_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Kth_smallest_in_matrix" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -67,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cyclic_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.cyclic_sort" />
+    <configuration name="pattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.pattern1" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
+          <option name="PATTERN" value="com.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,25 +70,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findFirst_Last" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.findFirst_Last" />
+    <configuration name="pattern2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.pattern2" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.patterns" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="search2Darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bs_sums.search2Darray" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bs_sums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="insertion_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.insertion_sort" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Find_duplicate_number" />
-        <item itemvalue="Application.insertion_sort" />
-        <item itemvalue="Application.cyclic_sort" />
-        <item itemvalue="Application.findFirst_Last" />
-        <item itemvalue="Application.Min_size_subarray_sum" />
+        <item itemvalue="Application.patterns" />
+        <item itemvalue="Application.Kth_smallest_in_matrix" />
+        <item itemvalue="Application.search2Darray" />
+        <item itemvalue="Application.pattern2" />
+        <item itemvalue="Application.pattern1" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +127,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672161585604</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1674969257327</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1674969257328</updated>
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <created>1674969380798</created>
@@ -468,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680455485147</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="cycle sort/insertion sort">
+      <created>1680715104534</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680715104535</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +486,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode 744 python" />
     <MESSAGE value="leetcode 744 python and js" />
     <MESSAGE value="leetcode 34 sol 1" />
     <MESSAGE value="leetcode 34 sol 2" />
@@ -508,7 +510,8 @@
     <MESSAGE value="duplicate num" />
     <MESSAGE value="selection sort" />
     <MESSAGE value="leet code min size sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="leet code min size sum" />
+    <MESSAGE value="cycle sort/insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="cycle sort/insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -828,6 +831,31 @@
           <line>6</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sorting/Find_duplicate_number.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/pattern1.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/pattern/patterns.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/Kth_smallest_in_matrix.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/Kth_smallest_in_matrix.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
           <line>44</line>
@@ -872,6 +900,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/three_sum.java</url>
+          <line>12</line>
+          <properties class="com.bs_sums.three_sum" method="three">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/sorting/Height_checker.java</url>
+          <line>7</line>
+          <properties class="com.sorting.Height_checker" method="heightChecker">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
