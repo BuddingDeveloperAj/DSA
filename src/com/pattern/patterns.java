@@ -2,7 +2,7 @@ package com.pattern;
 
 public class patterns {
     public static void main(String[] args) {
-        pattern19(7);
+        pattern17(5);
 
     }
     static void pattern3(int n){
@@ -184,6 +184,24 @@ public class patterns {
             int tot_rcol = row <= n ? row : 2*n-row;
             for (int rcol = 1; rcol <= tot_rcol ; rcol++) {
                 System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+
+    static void pattern17(int n){
+        for (int row = 1; row <=2*n-1 ; row++) {
+            int col_range = row <= n ? row : 2*n-row;
+
+            for (int space = 1; space <= n-col_range ; space++) {
+                System.out.print("  ");
+            }
+            for (int col = col_range; col >= 1 ; col--) {
+                System.out.print(col + " ");
+            }
+            for (int col = 2; col <=col_range ; col++) {
+                System.out.print(col + " ");
             }
 
             System.out.println();

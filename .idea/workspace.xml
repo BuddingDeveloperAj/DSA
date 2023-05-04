@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="cycle sort/insertion sort">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="patterns and bs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/Find_duplicate_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/Find_duplicate_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/cyclic_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/cyclic_sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sorting/insertion_sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sorting/insertion_sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pattern/patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/patterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.patterns">
-    <configuration name="Kth_smallest_in_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.Kth_smallest_in_matrix" />
+  <component name="RunManager" selected="Application.leet_11_water">
+    <configuration name="Bs_with_recurssion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Recursion.Bs_with_recurssion" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="PATTERN" value="com.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.pattern1" />
+    <configuration name="cyclic_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sorting.cyclic_sort" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.pattern2" />
+    <configuration name="leet_11_water" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.leet_11_water" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.*" />
+          <option name="PATTERN" value="com.ajay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.patterns" />
+    <configuration name="palindrome_two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.palindrome_two" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="search2Darray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bs_sums.search2Darray" />
+    <configuration name="valid_paranthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.valid_paranthesis" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bs_sums.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.patterns" />
-        <item itemvalue="Application.Kth_smallest_in_matrix" />
-        <item itemvalue="Application.search2Darray" />
-        <item itemvalue="Application.pattern2" />
-        <item itemvalue="Application.pattern1" />
+        <item itemvalue="Application.leet_11_water" />
+        <item itemvalue="Application.cyclic_sort" />
+        <item itemvalue="Application.valid_paranthesis" />
+        <item itemvalue="Application.Bs_with_recurssion" />
+        <item itemvalue="Application.palindrome_two" />
       </list>
     </recent_temporary>
   </component>
@@ -127,13 +125,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672161585604</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <created>1674969380798</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1674969380799</updated>
     </task>
     <task id="LOCAL-00003" summary="binary search">
       <created>1674969999281</created>
@@ -471,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680715104535</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="patterns and bs">
+      <created>1682189028848</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1682189028848</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="leetcode 744 python and js" />
     <MESSAGE value="leetcode 34 sol 1" />
     <MESSAGE value="leetcode 34 sol 2" />
     <MESSAGE value="infinite array" />
@@ -511,7 +508,8 @@
     <MESSAGE value="selection sort" />
     <MESSAGE value="leet code min size sum" />
     <MESSAGE value="cycle sort/insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="cycle sort/insertion sort" />
+    <MESSAGE value="patterns and bs" />
+    <option name="LAST_COMMIT_MESSAGE" value="patterns and bs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,6 +853,21 @@
           <url>file://$PROJECT_DIR$/src/com/bs_sums/Kth_smallest_in_matrix.java</url>
           <line>8</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bs_sums/sq_of_sorted_matrix.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Recursion/Numbers.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/Recursion/Bs_with_recurssion.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
