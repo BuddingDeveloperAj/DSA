@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="patterns and bs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pattern/patterns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pattern/patterns.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,35 +40,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.leet_11_water">
-    <configuration name="Bs_with_recurssion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Recursion.Bs_with_recurssion" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cyclic_sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sorting.cyclic_sort" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leet_11_water" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ajay.leet_11_water" />
+  <component name="RunManager" selected="Application.gfg_chocolatet">
+    <configuration name="JumpgameVII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.JumpgameVII" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
@@ -81,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome_two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.string.palindrome_two" />
+    <configuration name="Max_prdts_2_eles_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.Max_prdts_2_eles_array" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.string.*" />
+          <option name="PATTERN" value="com.ajay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +67,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="valid_paranthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.string.valid_paranthesis" />
+    <configuration name="gfg_chocolatet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.gfg_chocolatet" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.string.*" />
+          <option name="PATTERN" value="com.ajay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subarray_Div_by_K_974" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.subarray_Div_by_K_974" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ajay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sudoku36leet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ajay.sudoku36leet" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ajay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leet_11_water" />
-        <item itemvalue="Application.cyclic_sort" />
-        <item itemvalue="Application.valid_paranthesis" />
-        <item itemvalue="Application.Bs_with_recurssion" />
-        <item itemvalue="Application.palindrome_two" />
+        <item itemvalue="Application.gfg_chocolatet" />
+        <item itemvalue="Application.JumpgameVII" />
+        <item itemvalue="Application.Max_prdts_2_eles_array" />
+        <item itemvalue="Application.subarray_Div_by_K_974" />
+        <item itemvalue="Application.sudoku36leet" />
       </list>
     </recent_temporary>
   </component>
@@ -125,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672161585604</updated>
-    </task>
-    <task id="LOCAL-00003" summary="binary search">
-      <created>1674969999281</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1674969999281</updated>
     </task>
     <task id="LOCAL-00004" summary="binary search code complete">
       <created>1675012828805</created>
@@ -469,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682189028848</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="patterns and bs">
+      <created>1683222156385</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1683222156386</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -868,6 +867,51 @@
           <url>file://$PROJECT_DIR$/src/com/Recursion/Bs_with_recurssion.java</url>
           <line>11</line>
           <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/leet_11_water.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/Move_zeroes_283.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/Move_zeroes_283.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/removeDuplicates2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/sudoku36leet.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/subarray_Div_by_K_974.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/Max_prdts_2_eles_array.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/JumpgameVII.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ajay/gfg_chocolatet.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
