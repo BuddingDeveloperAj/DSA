@@ -6,27 +6,20 @@ public class JumpgameVII {
     }
 
     public static boolean check(){
-        String s = "0000000000";
-        int minJump = 2;
+        String s = "011001110001000";
+        int minJump = 3;
         int maxJump = 5;
-        int i = 1;
-        int startZero = 0;
-        boolean zeroFound = false;
 
-        while (i < s.length()){
-            if (s.charAt(i) == '0'){
-                while (i<=s.length()-3 &&  s.charAt(i+1) == '0'){
-                    if (startZero + minJump <= i && i <= Math.min(startZero + maxJump, s.length() - 1)) {
-                        startZero = i;
-                        zeroFound = true;
-                        i++;
-                    }
-                    else if (i<=s.length()-3 && s.charAt(i) == '0' && s.charAt(i+1) == '0') i++;
-                    else return false;
-                }
-            }
-            else i++;
+        int n = s.length(), pre = 0;
+        boolean[] dp = new boolean[n];
+        dp[0] = true;
+        for (int i = 1; i < n; ++i) {
+            if (i >= minJump && dp[i - minJump])
+                pre++;
+            if (i > maxJump && dp[i - maxJump - 1])
+                pre--;
+            dp[i] = pre > 0 && s.charAt(i) == '0';
         }
-        return zeroFound;
+        return dp[n - 1];
     }
 }
