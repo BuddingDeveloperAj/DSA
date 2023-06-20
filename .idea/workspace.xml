@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="12/6 commits">
+    <list default="true" id="31623c30-833e-4c1c-98bf-3f7c893a6253" name="Changes" comment="17/6 commits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bitwise/operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bitwise/operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.reverseString">
-    <configuration name="JumpgameVII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ajay.JumpgameVII" />
+  <component name="RunManager" selected="Application.valid_number_76">
+    <configuration name="No_Steps_to_num_Zero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Recursion.No_Steps_to_num_Zero" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ajay.*" />
+          <option name="PATTERN" value="com.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,25 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jumpgame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ajay.jumpgame2" />
-      <module name="DSA Kunal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ajay.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bitwise.operators" />
+    <configuration name="bitcounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bitwise.bitcounter" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bitwise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="powerOf4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Recursion.powerOf4" />
+      <module name="DSA Kunal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="rotatestring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ajay.rotatestring" />
+    <configuration name="valid_number_76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.valid_number_76" />
       <module name="DSA Kunal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ajay.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.valid_number_76" />
+        <item itemvalue="Application.powerOf4" />
+        <item itemvalue="Application.No_Steps_to_num_Zero" />
+        <item itemvalue="Application.bitcounter" />
         <item itemvalue="Application.reverseString" />
-        <item itemvalue="Application.operators" />
-        <item itemvalue="Application.rotatestring" />
-        <item itemvalue="Application.jumpgame2" />
-        <item itemvalue="Application.JumpgameVII" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672161585604</updated>
-    </task>
-    <task id="LOCAL-00006" summary="binary search sum 1">
-      <created>1675349367568</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1675349367568</updated>
     </task>
     <task id="LOCAL-00007" summary="binary search sum 1">
       <created>1675349379897</created>
@@ -475,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686585568570</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="17/6 commits">
+      <created>1687081382572</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1687081382572</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +489,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="infinite array" />
     <MESSAGE value="Find in mountain array" />
     <MESSAGE value="rotated sorted array" />
     <MESSAGE value="pivot in duplicate array" />
@@ -515,7 +513,8 @@
     <MESSAGE value="patterns and bs" />
     <MESSAGE value="leetcode" />
     <MESSAGE value="12/6 commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="12/6 commits" />
+    <MESSAGE value="17/6 commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="17/6 commits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -960,6 +959,11 @@
           <line>11</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bitwise/bitcounter.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/bs_sums/SerachInRotatedArray.java</url>
           <line>44</line>
@@ -1041,12 +1045,38 @@
           </properties>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Recursion/No_Steps_to_num_Zero.java</url>
+          <line>8</line>
+          <properties class="com.Recursion.No_Steps_to_num_Zero" method="divOrSub">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/Recursion/powerOf4.java</url>
+          <line>6</line>
+          <properties class="com.Recursion.powerOf4" method="checkFor">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/string/valid_number_76.java</url>
+          <line>6</line>
+          <properties class="com.string.valid_number_76" method="isNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="i+nums[i]" language="JAVA" />
-        <watch expression="nums[currentPosition]" language="JAVA" />
+        <watch expression="s.charAt(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
