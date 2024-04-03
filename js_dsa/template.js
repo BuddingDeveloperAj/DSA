@@ -13,7 +13,13 @@ let testingEnd = inputs.length;
 
 for (let ind = testingFrom; ind < testingEnd; ind++) {
   let output = programme(...inputs[ind]);
-  let result = output === expected_output[ind];
+  let result;
+
+  if (Array.isArray(expected_output[ind])) {
+    result = JSON.stringify(output) === JSON.stringify(expected_output[ind]);
+  } else {
+    result = output === expected_output[ind];
+  }
   testResults.push({
     Input: inputs[ind],
     Output: output,
