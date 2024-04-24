@@ -69,6 +69,8 @@ function mergeSortInPlace(arr, s, m, e) {
         }
     }
 
+    // this is new
+
     if (i <= m) {
         res.push(...arr.slice(i, m + 1));
     }
